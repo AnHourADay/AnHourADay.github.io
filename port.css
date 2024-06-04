@@ -1,40 +1,19 @@
-* {
-  text-decoration: none;
-}
-
-
-body { 
-  background-image: url('Images/Soft\ Pink\ \(1\).jpg');
-  margin-bottom:50px;
-}
 
 .container {
-  position:static;
+  position: static;
   background-color: #f0caf0; 
   width: auto;
-  height: 55rem;
+  height: 60rem;
   border-radius: 5px;
   box-shadow: 4px 2px 8px rgb(7, 7, 7), -4px 2px 8px rgb(7, 7, 7);
 }
 
-h1 {
-  background-color: transparent; 
-  width: auto;
-  margin-top: -680px;
-  margin-left: 10px;
-  margin-right: 6px;
-  height: 658px;
-  padding-left: 10px;
-
-}
-
 .content {
-  position: relative;
+  position: fixed;
   background-color: transparent; 
-  width: auto;
+  width: 50px;
   border-radius: 5px;
-  margin-top: 50px;
-  margin-left: -25px;
+  margin-top: -350px;
 }
 
 .nav ul {
@@ -45,7 +24,7 @@ position: static;
 nav ul li {
   display: block;
   margin-right: 10px;
-  margin-left: -12px;
+  margin-left: -28px;
   margin-top: 60px;
 }
 
@@ -53,12 +32,6 @@ nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
-}
-
-header {
-  background-color: bisque; 
-  border: solid 1px #000000;
-  width: auto;
 }
 
 .footer {
@@ -129,20 +102,6 @@ footer nav ul li a {
   Color: #000000
 }
 
-.wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 32px;
-}
-
-.wrapper .square:nth-child(odd) {
-  justify-self: end;
-}
-
-.wrapper .square:nth-child(even) {
-  justify-self: start;
-}
-
 .about {
   transition-property: all;
 }
@@ -152,7 +111,7 @@ footer nav ul li a {
   Color: #000000
 }
 
-.about {
+.home {
   color: #ffffff;
   width: 100px;
   height: 100px;
@@ -163,7 +122,7 @@ footer nav ul li a {
   padding: 8px;
   box-shadow: -2px 2px 2px rgb(7,7,7);
 }
-.home {
+.about {
   color: #ffffff;
   width: 100px;
   height: 100px;
@@ -269,3 +228,64 @@ footer nav ul li a {
   position: relative;
   margin-left: 45px;
 }
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  margin-top: -2px;
+  margin-left: -60px;
+}
+
+.thumbnails {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.thumbnails img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.scrollbar {
+  width: 1px;
+  height: 720px;
+  background: #ccc;
+  display: block;
+  margin: 0 0 0 8px;
+}
+
+.thumb {
+  width: 1px;
+  position: absolute;
+  height: 0;
+  background: #000;
+}
+
+.slides {
+  margin: 0 16px;
+  display: grid;
+  grid-auto-flow: row;
+  gap: 1rem;
+  width: calc(540px + rem);
+  padding: 0 0.25rem;
+  height: 720px;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+}
+
+.slides > div {
+  scroll-snap-align: start;
+}
+
+.slides img {
+  width: 400px;
+  object-fit: contain;
+}
+
+.slides::-webkit-scrollbar {
+  display: none;
+}
+
