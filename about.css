@@ -1,273 +1,271 @@
 * {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 
 body { 
-    background-image: url('Images/Soft\ Pink.jpg');
-    margin-bottom:50px;
+  background-image: url('Images/Soft\ Pink\ \(1\).jpg');
+  margin-bottom:50px;
 }
 
 .container {
-    position:static;
-    background-color: #f0caf0; 
-    width: auto;
-    height: 925px;
-    border-radius: 5px;
-    box-shadow: 4px 2px 8px rgb(7, 7, 7), -4px 2px 8px rgb(7, 7, 7);
+  position:static;
+  background-color: #f0caf0; 
+  width: auto;
+  height: 55rem;
+  border-radius: 5px;
+  box-shadow: 4px 2px 8px rgb(7, 7, 7), -4px 2px 8px rgb(7, 7, 7);
 }
 
 h1 {
-    background-color: transparent; 
-    width: auto;
-    margin-top: -680px;
-    margin-left: 10px;
-    margin-right: 6px;
-    height: 658px;
-    padding-left: 10px;
+  background-color: transparent; 
+  width: auto;
+  margin-top: -680px;
+  margin-left: 10px;
+  margin-right: 6px;
+  height: 658px;
+  padding-left: 10px;
 
 }
 
 .content {
-    position: fixed;
-    background-color: transparent; 
-    width: auto;
-    border-radius: 5px;
-    margin-top: 250px;
-    margin-left: -25px;
+  position: relative;
+  background-color: transparent; 
+  width: auto;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-left: -25px;
 }
 
 .nav ul {
-  position: static;
-    list-style: none;
-  }
-  
-  nav ul li {
-    display: block;
-    margin-right: 10px;
-    margin-left: -12px;
-    margin-top: 60px;
-  }
-  
-  nav ul li a {
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: bold;
-  }
+position: static;
+  list-style: none;
+}
+
+nav ul li {
+  display: block;
+  margin-right: 10px;
+  margin-left: -12px;
+  margin-top: 60px;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}
 
 header {
-    background-color: bisque; 
-    border: solid 1px #000000;
-    width: auto;
+  background-color: bisque; 
+  border: solid 1px #000000;
+  width: auto;
 }
 
-footer {
-  position: fixed;
-  height: 50px;
-  background-color: transparent;
-  bottom: 0px;
-  left: 90px;
-  right: 0px;
-  margin-bottom: -5px;
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: transparent;
+color: white;
+text-align: center;
+border-radius: 40px;
 }
-  footer nav ul li {
-    display: inline-flex;
-    margin-top: 6px;
-    margin-right: 60px;
-  }
-  footer nav ul li a {
-    text-decoration: none;
-    font-size: medium;
-    margin-right: -10px;
+footer nav ul li {
+  display: inline-flex;
+  margin-top: 0px;
+  margin-right: 60px;
+}
+footer nav ul li a {
+  text-decoration: none;
+  font-size: medium;
+  margin-right: -10px;
 
-  }
-  .social-icon1 {
-    color: #0c0a0c
-  }
-  .social-icon1:hover {
-    color: #d316d3
-  }
-  .social-icon2 {
-    color: #0c0a0c
-  }
-  .social-icon2:hover {
-    color: #d316d3
-  }
-  .social-icon3 {
-    color: #0c0a0c
-  }
-  .social-icon3:hover {
-    color: #d316d3
-  }
-  .social-icon4 {
-    color: #0c0a0c
-  }
-  .social-icon4:hover {
-    color: #d316d3
-  }
+}
+.social-icon1 {
+  color: #0c0a0c
+}
+.social-icon1:hover {
+  color: #d316d3
+}
+.social-icon2 {
+  color: #0c0a0c
+}
+.social-icon2:hover {
+  color: #d316d3
+}
+.social-icon3 {
+  color: #0c0a0c
+}
+.social-icon3:hover {
+  color: #d316d3
+}
+.social-icon4 {
+  color: #0c0a0c
+}
+.social-icon4:hover {
+  color: #d316d3
+}
 
-  .home {
-    color: #ffffff;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    background-color: #f0caf0;
-    transition-duration: 600ms;
-    transition-timing-function: ease;
-    padding: 8px;
-    box-shadow: -2px 2px 2px rgb(7,7,7);
-  }
-  
-  .home {
-    transition-property: all;
-  }
-  
-  .home:hover {
-    transform: scale(0.6);
-    background-color: #ffe7d7;
-    Color: #000000
-  }
-  
-  .wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 32px;
-  }
-  
-  .wrapper .square:nth-child(odd) {
-    justify-self: end;
-  }
-  
-  .wrapper .square:nth-child(even) {
-    justify-self: start;
-  }
-  
-    .about {
-      color: #000000;
-      width: 100px;
-      height: 100px;
-      border-radius: 50px;
-      background-color: #ffbcf0;
-      transition-duration: 800ms;
-      transition-timing-function: ease;
-      padding: 8px;
-      box-shadow: -4px 4px 2px rgb(7,7,7);
-    }
-  
-  .about {
-    transition-property: all;
-  }
-  
-  .about:hover {
-    background-color: #ffe7d7;
-    Color: #000000
-  }
-  
-  .port {
-    color: #ffffff;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    background-color: #f0caf0;
-    transition-duration: 800ms;
-    transition-timing-function: ease;
-    padding: 8px;
-    box-shadow: -2px 2px 2px rgb(7,7,7);
-  }
-  
-  .port {
-    transition-property: all;
-  }
-  
-  .port:hover {
-    background-color: #ffe7d7;
-    Color: #000000
-  }
-  .book {
-    color: #ffffff;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    background-color: #f0caf0;
-    transition-duration: 600ms;
-    transition-timing-function: ease;
-    padding: 8px;
-    box-shadow: -2px 2px 2px rgb(0, 0, 0);
-  }
-  
-  .book {
-    transition-property: all;
-  }
-  
-  .book:hover {
-    background-color: #ffe7d7;
-    Color: #000000
-  }
-  
-  .home {
-    animation: transitionIn 1s;
-  }
-  
-  @keyframes transitionIn {
-  
-    from {
-      opacity: 0;
-    }
-  
-    to {
-      opacity: 1;
-      transform: rotateX(0);
-    }
-  }
-  .about {
-    animation: transitionIn 2;
-  }
-  
-  @keyframes transitionIn {
-  
-    from {
-      opacity: 0;
-    }
-  
-    to {
-      opacity: 1;
-      transform: rotateX(0);
-    }
-  }
-  .port {
-    animation: transitionIn 3s;
-  }
-  
-  @keyframes transitionIn {
-  
-    from {
-      opacity: 0;
-    }
-  
-    to {
-      opacity: 1;
-      transform: rotateX(0);
-    }
-  }
-  .book {
-    animation: transitionIn 4s;
-  }
-  
-  @keyframes transitionIn {
-  
-    from {
-      opacity: 0;
-    }
-  
-    to {
-      opacity: 1;
-      transform: rotateX(0);
-    }
+.about {
+  color: #000000;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: #ffbcf0;
+  transition-duration: 800ms;
+  transition-timing-function: ease;
+  padding: 8px;
+  box-shadow: -4px 4px 2px rgb(7,7,7);
+}
+
+.home {
+  transition-property: all;
+}
+
+.home:hover {
+  transform: scale(0.6);
+  background-color: #ffe7d7;
+  Color: #000000
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 32px;
+}
+
+.wrapper .square:nth-child(odd) {
+  justify-self: end;
+}
+
+.wrapper .square:nth-child(even) {
+  justify-self: start;
+}
+
+.about {
+  transition-property: all;
+}
+
+.about:hover {
+  background-color: #ffe7d7;
+  Color: #000000
+}
+
+.home {
+  color: #ffffff;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: #f0caf0;
+  transition-duration: 600ms;
+  transition-timing-function: ease;
+  padding: 8px;
+  box-shadow: -2px 2px 2px rgb(7,7,7);
+}
+.port {
+  color: #ffffff;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: #f0caf0;
+  transition-duration: 800ms;
+  transition-timing-function: ease;
+  padding: 8px;
+  box-shadow: -2px 2px 2px rgb(7,7,7);
+}
+
+.port {
+  transition-property: all;
+}
+
+.port:hover {
+  background-color: #ffe7d7;
+  Color: #000000
+}
+.book {
+  color: #ffffff;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: #f0caf0;
+  transition-duration: 600ms;
+  transition-timing-function: ease;
+  padding: 8px;
+  box-shadow: -2px 2px 2px rgb(0, 0, 0);
+}
+
+.book {
+  transition-property: all;
+}
+
+.book:hover {
+  background-color: #ffe7d7;
+  Color: #000000
+}
+
+.home {
+  animation: transitionIn 1s;
+}
+
+@keyframes transitionIn {
+
+  from {
+    opacity: 0;
   }
 
-  .logo {
-    position: fixed;
-    width:auto;
-    height: fit-content;
-    margin-left: 45px;
+  to {
+    opacity: 1;
+    transform: rotateX(0);
   }
+}
+.about {
+  animation: transitionIn 2;
+}
+
+@keyframes transitionIn {
+
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+.port {
+  animation: transitionIn 3s;
+}
+
+@keyframes transitionIn {
+
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+.book {
+  animation: transitionIn 4s;
+}
+
+@keyframes transitionIn {
+
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+
+.logo {
+  position: relative;
+  margin-left: 45px;
+}

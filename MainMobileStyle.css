@@ -12,7 +12,7 @@ body {
     position:static;
     background-color: #f0caf0; 
     width: auto;
-    height: 1080px;
+    height: 55rem;
     border-radius: 5px;
     box-shadow: 4px 2px 8px rgb(7, 7, 7), -4px 2px 8px rgb(7, 7, 7);
 }
@@ -29,11 +29,11 @@ h1 {
 }
 
 .content {
-    position: fixed;
+    position: relative;
     background-color: transparent; 
     width: auto;
     border-radius: 5px;
-    margin-top: 250px;
+    margin-top: 50px;
     margin-left: -25px;
 }
 
@@ -61,18 +61,19 @@ header {
     width: auto;
 }
 
-footer {
+.footer {
   position: fixed;
-  height: 50px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background-color: transparent;
-  bottom: 0px;
-  left: 90px;
-  right: 0px;
-  margin-bottom: -8px;
+  color: white;
+  text-align: center;
+  border-radius: 40px;
 }
   footer nav ul li {
     display: inline-flex;
-    margin-top: 6px;
+    margin-top: 0px;
     margin-right: 60px;
   }
   footer nav ul li a {
@@ -265,6 +266,6 @@ footer {
   }
 
   .logo {
-    position: fixed;
+    position: relative;
     margin-left: 45px;
   }
