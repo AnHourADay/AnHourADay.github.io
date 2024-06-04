@@ -17,7 +17,7 @@
 }
 
 .nav ul {
-position: static;
+position: fixed;
   list-style: none;
 }
 
